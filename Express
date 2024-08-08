@@ -1,3 +1,10 @@
-how to install express or any other module in node.js
+1.how to install any module in node.js
 npm install <package-name>
+
+2.how to install express
+npm install express
+
+3.how to install ejs (templating engine)
+npm install ejs
+
 
