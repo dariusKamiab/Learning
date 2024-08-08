@@ -1,0 +1,3 @@
+how to install express or any other module in node.js
+npm install <package-name>
+
