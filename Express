@@ -28,3 +28,14 @@ app.get('/', function (req, res) {
 });
 
 app.listen(1337);
+
+6. how to route hello to helloword page ex: login
+var express = require('express');
+var app = express();
+
+app.get('/hello', function(req, res){
+   res.send("Hello World!");
+});
+
+app.listen(3000);
+
