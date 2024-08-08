@@ -7,4 +7,24 @@ npm install express
 3.how to install ejs (templating engine)
 npm install ejs
 
+4. how to create in http
+var http = require('http');
 
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(8080);
+
+
+5. how to create in express
+'use strict';
+var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+    
+    res.send("<h1>Hello world!</h1>");
+    res.end();
+});
+
+app.listen(1337);
